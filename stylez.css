@@ -8,13 +8,13 @@ body{
 
 .container{
   display: flex;
-  flex-direction: row | row-reverse | column | column-reverse;
+  flex-direction: row;
 }
 
 .item{
   flex-grow: 1;
   flex-shrink: 1;
-  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right;
+  justify-content: center;
 }
 
 .row{
