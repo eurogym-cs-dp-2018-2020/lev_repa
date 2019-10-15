@@ -1,9 +1,13 @@
 header{
-  background: #F583F8;
+  background: #243cbf
+}
+
+header nav{ 
+  color: #171614
 }
 
 body{
-  background: #F583F8
+  background: #f5f3f0
 }
 
 .container{
@@ -20,10 +24,7 @@ body{
 .row {
   display: flex;
   flex-wrap: wrap;
-
 }
-
-
 
 .col-1 {
   flex-basis: 8.3333%;
