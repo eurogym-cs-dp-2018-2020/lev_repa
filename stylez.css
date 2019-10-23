@@ -6,6 +6,12 @@ header nav{
   color: #171614
 }
 
+header img{
+  width: 300px;
+  height: auto;
+  margin: auto 1100px;
+}
+
 body{
   background: #f5f3f0
 }
