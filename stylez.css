@@ -1,19 +1,40 @@
 header{
-  background: #243cbf
+  background: #243cbf;
+  height: 150px;
 }
 
-header nav{ 
-  color: #171614
+header nav a{
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 14px 20px;
+  margin-top: 50px;
+}
+
+header nav a:hover{
+  color: red;
 }
 
 header img{
   width: 300px;
   height: auto;
-  margin: auto 1100px;
+  margin-left: 1100px;
+  margin-top: -60px;
 }
 
 body{
   background: #f5f3f0
+}
+
+body nav a{
+  color: black;
+  font-size: 25px;  
+}
+
+school-link nav a{
+  text-decoration: none;
+  color: black;
+  background-color: red;
 }
 
 .container{
