@@ -37,6 +37,12 @@ school-link nav a{
   background-color: red;
 }
 
+high-school h3{
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+}
+
 .container{
   display: flex;
   flex-direction: row;
