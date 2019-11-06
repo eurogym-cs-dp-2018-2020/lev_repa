@@ -26,12 +26,12 @@ body{
   background: #f5f3f0
 }
 
-body nav a{
+.link nav a{
   color: black;
   font-size: 25px;  
 }
 
-school-link nav a{
+.high-school nav a{
   text-decoration: none;
   color: black;
   background-color: red;
