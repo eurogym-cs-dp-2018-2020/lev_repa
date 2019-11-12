@@ -35,19 +35,19 @@ body{
   display: inline-block;
 }
 
-.link nav .high{
+.high{
   background-color: #f44336;
 }
 
-.link nav .primary{
+.primary{
   background-color: #ec930c;
 }
 
-.link nav .detsad{
+.detsad{
   background-color: green;
 }
 
-.link nav .top{
+.top{
   background-color: #456cd6;
 }
 
@@ -117,3 +117,4 @@ h3{
 .col-12 {
   flex-basis: 100%;
 }
+
