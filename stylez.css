@@ -118,3 +118,8 @@ h3{
   flex-basis: 100%;
 }
 
+footer{
+  background: #201f1f;
+  color: #f5f3f0;
+  height: 150px;
+}
