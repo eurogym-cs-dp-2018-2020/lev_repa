@@ -121,5 +121,7 @@ h3{
 footer{
   background: #201f1f;
   color: #f5f3f0;
-  height: 150px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
 }
