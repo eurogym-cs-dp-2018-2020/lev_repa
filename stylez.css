@@ -133,10 +133,40 @@ footer h1{
   border-bottom: 2px solid rgb(255, 255, 255);
 }
 .one{
-  margin-left: 200px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.one h2{
+  margin-top: 100px;
+  margin-left: -270px;
+}
+
+.one-1{
+  margin-top: 150px;
+  margin-left: -270px;
+}
+
+.one-2{
+  margin-top: 150px;
+  margin-left: 50px;
 }
 
 .two{
-  margin-left: 600px;
-  margin-top:-313px;
+  margin-left: 350px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row
 }
+
+.two-1{
+  margin-left: -220px;
+  margin-top: 180px;
+}
+
+.two-2{
+  margin-left: 100px;
+  margin-top: 180px;
+}
+
