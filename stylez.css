@@ -178,14 +178,8 @@ footer img{
 }
 
 @media (min-width: 600px) {
-  p {
+  body {
     font-size: 1.2rem;
-  }
-}
-
-@media (mind-width: 800px) {
-  p {
-    font-size: 1.5rem;
-    line-height: 1.5;
+    background: #201f1f;
   }
 }
