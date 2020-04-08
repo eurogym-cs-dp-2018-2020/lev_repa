@@ -189,17 +189,3 @@ footer img{
     line-height: 1.5;
   }
 }
-
-@media (min-width: 1000px) {
-  p {
-    font-size: 3rem;
-    line-height: 3;
-  }
-}
-
-@media (min-width: 1500px) {
-  p {
-    font-size: 6rem;
-    line-height: 6;
-  }
-}
