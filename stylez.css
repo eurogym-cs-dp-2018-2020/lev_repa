@@ -4,7 +4,7 @@ header{
 }
 
 header nav a{
-  color: black;
+  color: white;
   text-decoration: none;
   display: inline-flex;
   padding: 14px 20px;
@@ -18,11 +18,11 @@ header nav a:hover{
 header img{
   width: 300px;
   height: auto;
-  margin-left: 1100px;
+  margin-left: 1000px;
   margin-top: -60px;
 }
 
-body{
+body{ 
   background: #f5f3f0
 }
 
@@ -37,18 +37,26 @@ body{
 
 .high{
   background-color: #f44336;
+  width: 200px;
+  height: 5px;
 }
 
 .primary{
   background-color: #ec930c;
+  width: 200px;
+  height: 5px;
 }
 
 .detsad{
   background-color: green;
+  width: 200px;
+  height: 5px;
 }
 
 .top{
   background-color: #456cd6;
+  width: 200px;
+  height: 5px;
 }
 
 h3{
@@ -177,9 +185,106 @@ footer img{
   margin-top: 400px;
 }
 
-@media (min-width: 600px) {
-  body {
-    font-size: 1.2rem;
-    background: #201f1f;
+body header nav{
+  max-width: 100%;
+  height: auto;
+}
+
+
+h3{
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (min-width: 601px) {
+  body{
+    font-size: 20px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  body{
+    font-size: 10px;
+  }
+}
+
+/* CSS QUERY EUROGYM PICTURE */
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+
+  body header img{
+    width: 20%;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+
+  body header img{
+    width: 10%;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+
+  body header img{
+   width: 5%;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 201px) and (max-width: 400px) {
+
+  body header img{
+    width: 2.5%;
+    height: auto;
+  }
+
+}
+
+
+
+/* CSS QUERY PICTURE */
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  img{
+    max-width: 200%;
+    height: auto;
+    
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  img{
+    max-width: 150%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 201px) and (max-width: 400px) {
+  img{
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
