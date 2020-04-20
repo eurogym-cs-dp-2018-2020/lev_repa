@@ -1,5 +1,4 @@
 header{
-  padding-top: 40px;
   background: #243cbf;
   height: 150px;
 }
@@ -257,40 +256,63 @@ img {
 
 /* CSS QUERY PICTURE */
 
-@media screen and (min-width: 801px) and (max-width: 1000px) {
-  img{
-    max-width: 200%;
-    height: auto;
-    
+
+@media (min-width: 768px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
   }
-}
 
-@media screen and (min-width: 601px) and (max-width: 800px) {
-  img{
-    max-width: 150%;
-    height: auto;
-  }
-}
+  @media (min-width: 992px) {
+    header img {
+      display: block;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12{
+      padding-left: 8px;
+      padding-right: 8px;
+      box-sizing: border-box;
+    } 
 
-@media screen and (min-width: 401px) and (max-width: 600px) {
-  img{
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 201px) and (max-width: 400px) {
-  img{
-    max-width: 50%;
-    height: auto;
-  }
-}
-
-img{
-  width: 200px;
-  height: 200px;
-}
-
+    @media (min-width: 1200px) {
+      .col-1,
+      .col-2,
+      .col-3,
+      .col-4,
+      .col-5,
+      .col-6,
+      .col-7,
+      .col-8,
+      .col-9,
+      .col-10,
+      .col-11,
+      .col-12{
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+      }
 
 
 
